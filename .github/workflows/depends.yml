@@ -7,15 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: date
- windows:
+  windows:
     runs-on: windows-latest
     steps:
     - run: date
-macos:
+  macos:
     runs-on: macos-latest
     steps:
     - run: date
-depends:
+  depends:
     needs: [ubuntu, windows, macos]
     runs-on: macos-latest
     steps:
