@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: python hello.py
+      - run: php index.php
   build:
     needs: [test]
     runs-on: ubuntu-latest
