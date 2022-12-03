@@ -1,4 +1,4 @@
-name: PHP Application
+name: PHP App Syntax Check
 
 on: [push]
   
