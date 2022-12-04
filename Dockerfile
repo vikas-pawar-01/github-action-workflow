@@ -1,5 +1,5 @@
 FROM ubuntu
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+COPY entrypoint.sh /usr/bin/docker/entrypoint.sh
+RUN chmod +x /usr/bin/docker/entrypoint.sh
 
 ENTRYPOINT [ "entrypoint.sh" ]
