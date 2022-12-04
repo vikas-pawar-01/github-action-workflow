@@ -1,5 +1,5 @@
 name: 'Keyword Releaser 9000'
-descriptions: 'Creates releases bases on keyword'
+description: 'Creates releases bases on keyword'
 runs: 
   using: 'docker'
   image: 'Dockerfile'
