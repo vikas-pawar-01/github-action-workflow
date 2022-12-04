@@ -13,4 +13,4 @@ RUN chmod +x /usr/bin/docker/entrypoint.sh
 
 COPY sample_push_event.json /sample_push_event.json
 
-ENTRYPOINT [ "/usr/local/bin/entrypoint.sh ]
+ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
